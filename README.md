@@ -1,5 +1,3 @@
-# Tech-Quiz-Test-Suite
-
 ## Tech Quiz Test Suite
 A comprehensive tech quiz application built using the MERN stack with Cypress testing capabilities.
 
