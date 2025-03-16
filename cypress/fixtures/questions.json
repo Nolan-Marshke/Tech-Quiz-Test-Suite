@@ -19,3 +19,13 @@
           { "text": "int", "isCorrect": false }
         ]
       },
+      {
+        "_id": "3",
+        "question": "What is the keyword used to define a function in Python?",
+        "answers": [
+          { "text": "function", "isCorrect": false },
+          { "text": "func", "isCorrect": false },
+          { "text": "def", "isCorrect": true },
+          { "text": "define", "isCorrect": false }
+        ]
+      },
