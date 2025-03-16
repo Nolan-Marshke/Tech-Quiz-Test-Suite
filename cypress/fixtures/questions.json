@@ -59,3 +59,23 @@
           { "text": "remove()", "isCorrect": false }
         ]
       },
+      {
+        "_id": "7",
+        "question": "What does the // operator do in Python?",
+        "answers": [
+          { "text": "Performs integer division", "isCorrect": true },
+          { "text": "Performs floating-point division", "isCorrect": false },
+          { "text": "Calculates the power of a number", "isCorrect": false },
+          { "text": "Performs a logical AND operation", "isCorrect": false }
+        ]
+      },
+      {
+        "_id": "8",
+        "question": "Which of the following is a valid variable name in Python?",
+        "answers": [
+          { "text": "1_variable", "isCorrect": false },
+          { "text": "variable_1", "isCorrect": true },
+          { "text": "variable-1", "isCorrect": false },
+          { "text": "variable 1", "isCorrect": false }
+        ]
+      },
