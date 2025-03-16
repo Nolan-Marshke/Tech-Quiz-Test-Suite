@@ -2,6 +2,7 @@ import * as React from "react";
 import Quiz from '../../client/src/components/Quiz';
 
 
+
 describe('Quiz Component', () => {
     beforeEach(() => {
       cy.intercept('GET', '/api/questions/random', {
@@ -30,12 +31,11 @@ describe('Quiz Component', () => {
         ]
       }).as('getQuestions');
       
-      
       cy.mount(<Quiz />);
     });
 
     it('shows start button when quiz is not started', () => {
-      cy.get('Start Quiz').should('be.visible');
+      cy.contains('Start Quiz').should('be.visible');
     });
 
     it('starts quiz when start button is clicked', () => {
