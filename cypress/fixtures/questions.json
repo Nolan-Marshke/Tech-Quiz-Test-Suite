@@ -79,3 +79,24 @@
           { "text": "variable 1", "isCorrect": false }
         ]
       },
+      {
+        "_id": "9",
+        "question": "What is the output of type(3.14)?",
+        "answers": [
+          { "text": "<class 'int'>", "isCorrect": false },
+          { "text": "<class 'float'>", "isCorrect": true },
+          { "text": "<class 'complex'>", "isCorrect": false },
+          { "text": "<class 'decimal'>", "isCorrect": false }
+        ]
+      },
+      {
+        "_id": "10",
+        "question": "Which of the following statements is used to handle exceptions in Python?",
+        "answers": [
+          { "text": "catch", "isCorrect": false },
+          { "text": "except", "isCorrect": true },
+          { "text": "handle", "isCorrect": false },
+          { "text": "try", "isCorrect": false }
+        ]
+      }
+    ]
